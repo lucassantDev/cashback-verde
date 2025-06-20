@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+
+}
+:root{
+    --cor00: #344C27;
+    --cor01: #778F43;
+    --cor02: rgba(0, 0, 0, 0.5);
+    --cor03: #FFFFFF;
+    --fontePrincipal: 'Inter';
+}
+
+@media screen and (max-width: 500px) {
+
+.tela-produtos{
+    display: block;
+}
+
+.produtos-eletronicos, .eletrodomesticos, .cuidado-pessoal{
+    width: 50%;
+    margin: 0 0 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap:wrap ;
+    border: 1px solid red;
+}
+
+.produto{
+    width: 115px;
+    height: 115px;
+    border: 1px solid var(--cor01);
+}
+
+.menu-fixo{
+    position: fixed;
+    top: 85%;
+    left: 8%;
+    width: 326px;
+    height: 76px;
+    display: flex;
+    align-items: center;
+    background-color: var(--cor01);
+    justify-content: space-evenly;
+    border: 1px solid var(--cor00);
+}
+
+
+}
