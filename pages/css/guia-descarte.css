@@ -1,0 +1,80 @@
+
+@media screen and (max-width: 500px) {
+.cabecalho-parte-3{
+    background-color: #344C27;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icone-header{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    font-size: 1.3rem;
+    align-items: center;
+    justify-content: center;
+    color: var(--cor03);
+    margin: 0 20px 0 20px;
+}
+
+.perfil{
+    border-radius: 28px;
+    color: var(--cor00);
+    background-color: #FFFFFF;
+}
+
+main{
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 0px 0px;
+}
+
+.conteudo-guia-descarte{
+    width: 95%;
+    height: 700px;
+}
+
+#div-centralizadora{
+    height: 650px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#div-centralizadora h1{
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--cor01);
+    font-family: var(--fontePrincipal), Arial, Helvetica, sans-serif;
+}
+
+.topico-guia{
+    width: 90%;
+    line-height: 125%;
+    height: fit-content;
+    padding: 10px 0px 10px;
+    border: 3px solid var(--cor01);
+    border-radius: 10px;
+}
+
+.topico-guia h3{
+    margin: 0px 0px 0px 10px;
+    font-weight: bold;
+    font-family: var(--fontePrincipal), Arial, Helvetica, sans-serif;
+}
+
+.topico-guia p{
+    width: 88%;
+    font-size: 13px;
+    font-weight: bolder;
+    font-family: var(--fontePrincipal), Arial, Helvetica, sans-serif;
+    color: var(--cor02);
+    margin: 5px 0px 0px 10px;
+}
+
+}

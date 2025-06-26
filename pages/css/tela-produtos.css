@@ -1,0 +1,24 @@
+
+@media screen and (max-width: 500px) {
+
+.tela-produtos{
+    display: block;
+}
+
+.produtos-eletronicos, .eletrodomesticos, .cuidado-pessoal{
+    width: 50%;
+    margin: 0 0 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap:wrap ;
+    border: 1px solid red;
+}
+
+.produto{
+    width: 115px;
+    height: 115px;
+    border: 1px solid var(--cor01);
+}
+
+}
