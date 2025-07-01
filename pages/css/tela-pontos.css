@@ -1,0 +1,66 @@
+
+@media screen and (max-width: 500px) {
+/* Página locais de descarte */
+
+main{
+    height: 800px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+#secao-pontos{
+    padding-block: 50px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h3{
+    font-size: 1.2rem;
+    font-family: "Inter";
+    font-weight: 600;
+    margin: 0 0 5px -140px;
+}
+
+.div-pontos{
+    width: 90%;
+    height: 150px;
+    border: 2px solid var(--cor04);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-pontos span{
+    font-size: 6rem;
+    font-family: var(--fontePrincipal);
+}
+
+.div-pontos p{
+    font-weight: 600;
+    margin: 45px 0 0 0;
+    font-family: var(--fontePrincipal);
+}
+
+#mensagem-pontos{
+    width: 90%;
+    margin: 10px 0 0 0;
+}
+
+#mensagem-pontos p{
+    font-family : var(--fontePrincipal);
+    font-weight: bold;
+    color: var(--cor05);
+}
+
+#mensagem-pontos span{
+    color: var(--cor04);
+}
+
+}
+
