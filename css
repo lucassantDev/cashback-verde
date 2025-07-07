@@ -54,6 +54,7 @@ main{
     font-weight: 550;
     font-size: 1.5rem;
     width: 35%;
+    text-align: justify;
 }
 
 /* campo checkbox */
@@ -129,4 +130,19 @@ button{
 button:hover{
     transition: 0.2s;
     background-color: var(--cor01);
+}
+
+.caixa-imagem {
+  width: 400px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.caixa-imagem img {
+  width: 100%;
+  height: 100%;
+  object-fit:fill;
 }
