@@ -1,0 +1,37 @@
+/* campo dos inputs */
+.input-style{
+    width: 350px;
+    padding: 10px;
+    margin-block: 20px;
+    border-radius: 10px;
+    border: 2px solid var(--cor00)
+}
+
+.input-botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 35px;
+    flex-direction: column;
+}
+
+.input-botao button{
+    background-color: var(--cor00);
+    color: #fff;
+    font-family: var(--fonteParagrafos);
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+}
+
+button{
+    width: 300px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover{
+    transition: 0.2s;
+    background-color: var(--cor01);
+}
