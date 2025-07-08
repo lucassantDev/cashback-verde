@@ -9,7 +9,6 @@
     width: 50%;
     border: 1px ;
     height: fit-content;
-    border: 1px solid red;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,12 +17,13 @@
 
 #campo-checkbox h2{
     width: 100%;
+    background-color: var(--cor00);
+    color: #fff;
     text-align: center;
     font-family: var(--fonteTitulo);
 }
 
 .imagem-numero-material{
-    border: 1px solid red;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,6 +33,9 @@
 
 .imagem-numero-material p{
     font-family: var(--fonteTitulo);
+    color: #fff;
+    background-color: var(--cor00);
+    padding-inline: 30px;
     font-size: 1.2rem;
     font-weight: 600;
 }

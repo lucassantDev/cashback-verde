@@ -8,10 +8,8 @@
 :root{
     --fonteTitulo: "Inter", Arial, sans-serif;
     --fonteParagrafos: "Inter", Arial, sans-serif;
-    --cor01: #778F43;
     --cor00: #344C27;
+    --cor01: #778F43;
+    --cor02: rgba(0, 0, 0, 0.5);
 }
 
-.hidden{
-    visibility: hidden;
-}
