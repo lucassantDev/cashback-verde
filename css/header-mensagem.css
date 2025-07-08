@@ -1,3 +1,5 @@
+
+
 header{
     display: flex;
     align-items: center;
@@ -9,10 +11,12 @@ header{
 }
 
 #imagem-inicio{
-    width: 400px;
+    width: 470px;
     height: 400px;
+    background-image: url(../img_cashback/imagem-inicial.jpg);
+    background-size: cover;
     border-radius: 20px 0 20px 20px;
-    border: 1px solid rgb(0, 0, 0);
+    /* border: 1px solid rgb(0, 0, 0); */
 }
 
 #mensagem{
@@ -35,7 +39,7 @@ header{
     text-align: justify;
 }
 
-#botao-usuarios{
+#botao-usuarios, #botao-retornar{
     width: 350px;
     height: 60px;
     display: flex;
@@ -52,7 +56,19 @@ header{
     color: #fff;
 }
 
+#botao-retornar:hover{
+    background-color: var(--cor00);
+    color: #fff;
+}
+
 #botao-usuarios p {
+    width: fit-content;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0 0 2px 0;
+}
+
+#botao-retornar p {
     width: fit-content;
     font-size: 1rem;
     font-weight: 500;

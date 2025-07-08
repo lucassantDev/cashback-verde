@@ -6,9 +6,10 @@
 }
 
 #campo-checkbox{
-    width: 40%;
+    width: 50%;
     border: 1px ;
     height: 900px;
+    border: 1px solid red;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,7 +26,7 @@
     width: 250px;
     height: 250px;
     margin: 10px 20px 10px 20px;
-    border: 1px ;
+    border: 1px solid red;
 }
 
 .opcao-material{
@@ -33,17 +34,28 @@
     align-items: end;
 }
 
-.caixa-imagem {
-  width: 400px;
-  height: 250px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
+#plastico{
+    background-image: url(../img_cashback/plastico.jpg);
+    background-size: cover;
 }
 
-.caixa-imagem img {
-  width: 100%;
-  height: 100%;
-  object-fit:fill;
+#vidro{
+    background-image: url(../img_cashback/vidro.jpg);
+    background-size: cover;
 }
+
+#cobre{
+    background-image: url(../img_cashback/cobre.jpg);
+    background-size: cover;
+}
+
+#ferro{
+    background-image: url(../img_cashback/ferro.jpg);
+    background-size: cover;
+}
+
+#aluminio{
+    background-image: url(../img_cashback/aluminio.jpg);
+    background-size: cover;
+}
+

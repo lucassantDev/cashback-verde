@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/e0b8a276c3.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="./css/index.css">
     <title>Document</title>
 </head>
 <body>
@@ -29,70 +29,51 @@
                     <i class="fa-solid fa-arrow-right"></i>
                 </div>
             </div>
+
+            <div id="botao-retornar">
+                <p>Retorne para a página inicial</p>
+                <div>
+                    <!-- icone  -->
+                    <i class="fa-solid fa-arrow-left"></i>
+                </div>
+            </div>
         </div>
+        <!-- da div input-botao, para baixo, irá desaparecer quando o usuário clicar na div com id botao-usuarios -->
         <div class="input-botao">
-            <input class="input-style" type="text" placeholder="Informe seu nome">
-            <input class="input-style" type="number" placeholder="Informe sua idade">
+            <input class="input-style" id="nome" type="text" placeholder="Informe seu nome">
+            <input class="input-style" id="idade" type="number" placeholder="Informe sua idade">
         </div>
         <div id="centralizar-checkbox">
             <div id="campo-checkbox">
                 <h2>Selecione o material que você irá descartar:</h2>
-                <div class="opcao-material">
-                    <!-- imagem plastico -->
-                    <!-- <input type="radio" id="plastico">-->
-                    <div class="caixa-imagem">
-                    <button class="caixa-imagem">
-                    <img src="img_cashback/conjunto-de-garrafas-de-plastico-pet-amassadas-732x488.jpg">
-                    </button>
-                    </div>
+                <div class="opcao-material" id="plastico">
+                    <!-- imagem do plastico -->
                 </div>
-                <div class="opcao-material">
+
+                <div class="opcao-material" id="vidro">
                     <!-- imagem vidro -->
-                    <!--<input type="radio" id="vidro">-->
-                    <div class="caixa-imagem">
-                    <button class="caixa-imagem">
-                    <img src="img_cashback/vidro.jfif">
-                    </button>
-                    </div>
-                    
                 </div>
-                <div class="opcao-material">
+
+                <div class="opcao-material" id="cobre">
                     <!-- imagem cobre -->
-                    <!--<input type="radio" id="cobre"> -->
-                    <div class="caixa-imagem">
-                    <button class="caixa-imagem">
-                    <img src="img_cashback/cobre.jfif">
-                    </button>
-                    </div>
                 </div>
-                <div class="opcao-material">
+
+                <div class="opcao-material" id="ferro">
                     <!-- imagem ferro -->
-                    <!--<input type="radio" id="ferro"> -->
-                    <div class="caixa-imagem">
-                    <button class="caixa-imagem">
-                    <img src="img_cashback/ferro.jfif">
-                    </button>
-
-                    </div>
                 </div>
-                <div class="opcao-material">
+
+                <div class="opcao-material" id="alumimio">
                     <!-- imagem alumimio -->
-                    <!--<input type="radio" id="alumimio"> -->
-                    <div class="caixa-imagem">
-                    <button class="caixa-imagem">
-                    <img src="img_cashback/aluminio.jfif">
-                    </button>
-
-                    </div>
-
                 </div>
             </div>
         </div>
         <div class="input-botao">
-            <input class="input-style" type="text" placeholder="Informe a pesagem do material descartado">
-            <button>Finalizar Sessão</button>
+            <input class="input-style" type="number" placeholder="Informe a pesagem do material descartado">
+            <button id="enviar-valores">Finalizar Sessão</button>
         </div>
         
     </main>
+
+    <script src="js/funcionalidade.js"></script>
 </body>
 </html>
