@@ -8,7 +8,7 @@
 #campo-checkbox{
     width: 50%;
     border: 1px ;
-    height: 900px;
+    height: fit-content;
     border: 1px solid red;
     display: flex;
     align-items: center;
@@ -22,16 +22,25 @@
     font-family: var(--fonteTitulo);
 }
 
+.imagem-numero-material{
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px 10px 10px 10px;
+}
+
+.imagem-numero-material p{
+    font-family: var(--fonteTitulo);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
 .opcao-material{
     width: 250px;
     height: 250px;
     margin: 10px 20px 10px 20px;
-    border: 1px solid red;
-}
-
-.opcao-material{
-    display: flex;
-    align-items: end;
 }
 
 #plastico{

@@ -14,12 +14,12 @@
     <main>
         <div id="mensagem">
             <div id="imagem-inicio">
-
+                <!-- imagem inicial -->
             </div>
             <p>
-                Olá! Esse é o sistemade troca de pontos do programa Cashback Verde.
+                Olá! Esse é o sistema de troca de pontos do programa Cashback Verde.
                 Visamos o descarte correto dos resíduos sólidos, tentando tornar o mundo um lugar cada dia mais limpo.
-                Venha ajudar o mundo você também!
+                Venha ajudar o planeta você também!
             </p>
 
             <div id="botao-usuarios">
@@ -45,30 +45,56 @@
         </div>
         <div id="centralizar-checkbox">
             <div id="campo-checkbox">
-                <h2>Selecione o material que você irá descartar:</h2>
-                <div class="opcao-material" id="plastico">
-                    <!-- imagem do plastico -->
+                <h2>Selecione o número do material escolhido para descarte:</h2>
+                <div class="imagem-numero-material">
+                    <div class="opcao-material" id="plastico">
+                        <!-- imagem do plastico -->
+                    </div>
+                    <p>
+                        1 - Plástico
+                    </p>
                 </div>
 
-                <div class="opcao-material" id="vidro">
-                    <!-- imagem vidro -->
+                <div class="imagem-numero-material">
+                    <div class="opcao-material" id="vidro">
+                        <!-- imagem vidro -->
+                    </div>
+                    <p>
+                        2 - Vidro
+                    </p>
                 </div>
 
-                <div class="opcao-material" id="cobre">
-                    <!-- imagem cobre -->
+                <div class="imagem-numero-material">
+                    <div class="opcao-material" id="cobre">
+                        <!-- imagem cobre -->
+                    </div>
+                    <p>
+                        3 - Cobre
+                    </p>
                 </div>
 
-                <div class="opcao-material" id="ferro">
-                    <!-- imagem ferro -->
+                <div class="imagem-numero-material">
+                    <div class="opcao-material" id="ferro">
+                        <!-- imagem ferro -->
+                    </div>
+                    <p>
+                        4 - Ferro
+                    </p>
                 </div>
 
-                <div class="opcao-material" id="alumimio">
-                    <!-- imagem alumimio -->
+                <div class="imagem-numero-material">
+                    <div class="opcao-material" id="aluminio">
+                        <!-- imagem alumimio -->
+                    </div>
+                    <p>
+                        5 - Aluminio
+                    </p>
                 </div>
             </div>
         </div>
         <div class="input-botao">
-            <input class="input-style" type="number" placeholder="Informe a pesagem do material descartado">
+            <input class="input-style" id="numero-material" type="number" placeholder="Informe o número referente ao material">
+            <input class="input-style" id="peso-material" type="number" placeholder="Informe a pesagem do material descartado">
             <button id="enviar-valores">Finalizar Sessão</button>
         </div>
         

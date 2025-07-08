@@ -13,6 +13,7 @@
     justify-content: center;
     padding-block: 35px;
     flex-direction: column;
+    border: 1px solid red;
 }
 
 .input-botao button{
@@ -27,11 +28,13 @@
 button{
     width: 300px;
     padding: 10px;
+    margin: 25px 0 0 0;
     cursor: pointer;
     transition: 0.2s;
 }
 
 button:hover{
     transition: 0.2s;
+    border-radius: 15px;
     background-color: var(--cor01);
 }

@@ -11,3 +11,7 @@
     --cor01: #778F43;
     --cor00: #344C27;
 }
+
+.hidden{
+    visibility: hidden;
+}
