@@ -3,9 +3,38 @@
 
 **cashback verde.py** é um programa simples em Python que incentiva o descarte correto de materiais recicláveis, recompensando os usuários com **cashback** baseado no tipo e peso do material reciclado. A ideia é conectar consciência ambiental com benefícios financeiros, promovendo a sustentabilidade.
 
+Para testar o sistema criado em HTML, CSS e JavaScript, [clique aqui](https://lucassantdev.github.io/cashback-verde/).
+
+
 ---
 
-## Descrição do Funcionamento
+## 🖥 Descrição do Projeto Web
+
+Este sistema foi desenvolvido para facilitar o cadastro e controle de usuários e materiais recicláveis, gerando pontos baseados no peso e tipo do material. A aplicação é simples, intuitiva e voltada para iniciativas sustentáveis.
+
+## Como usar?
+
+Para testar o sistema, [clique aqui](https://lucassantdev.github.io/cashback-verde/).
+
+### Cadastro de usuários web
+
+Os usuários podem ser cadastrados informando nome, idade, tipo do material e peso. O sistema valida os dados e armazena as informações para posterior visualização.
+
+### Visualização de usuários web
+
+Após o cadastro, é possível visualizar a lista de usuários cadastrados e seus respectivos dados.
+
+## Tecnologias usadas web
+
+- HTML
+- CSS
+- JavaScript
+
+---
+
+
+
+## Descrição do Funcionamento em Python
 
 ### 👤 Entrada do Nome
 
