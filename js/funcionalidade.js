@@ -83,6 +83,17 @@ finalizandoSessao.addEventListener('click', () =>{
     let materialInformado = Number(document.querySelector("#numero-material").value);
     let pesoMaterialInformado = Number(document.querySelector("#peso-material").value);
 
+    // código para não validar campos vazios
+    if (
+    nomeInformado === '' ||
+    isNaN(idadeInformada) ||
+    isNaN(materialInformado) || ![1, 2, 3, 4, 5].includes(materialInformado) ||
+    isNaN(pesoMaterialInformado) || pesoMaterialInformado <= 0
+  ) {
+    alert('Por favor, preencha todos os campos corretamente!');
+    return;
+    }
+
     // utilizando o includes para saber se existe ou não, deteriminado elemento dentro de um array(lista)
     if (![1, 2, 3, 4, 5].includes(materialInformado)){
         alert('Por favor, informe o material corretamente!');
