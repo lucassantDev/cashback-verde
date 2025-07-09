@@ -37,9 +37,9 @@ botaoUsuario.addEventListener('click', () => {
                 html += `
                     <p style="width: 750px; text-align: center; padding: 10px; border: 2px solid  #344C27;">
                     Nome: ${usuario.nomeInformado} |
-                    Idade: ${usuario.idadeInformada} | 
+                    Idade: ${usuario.idadeInformada} anos | 
                     Material: ${usuario.materialInformado} |
-                    Peso: ${usuario.pesoMaterialInformado}
+                    Peso: ${usuario.pesoMaterialInformado} KG
                     </p>
                 
                     `;
