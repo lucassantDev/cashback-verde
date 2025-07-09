@@ -43,7 +43,9 @@ header{
 }
 
 #mostrar-usuarios{
-    
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fonteTitulo);
 }
 
 #botao-usuarios, #botao-retornar{
